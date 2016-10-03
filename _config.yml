@@ -1,0 +1,21 @@
+# Site settings
+title: My journey through Flatiron
+header-img: img/home-bg.png
+email: rmullig2@optonline.net
+copyright_name: rmullig2
+description: > # this means to ignore newlines until "baseurl:"
+  Observations from a remote coding boot camp student
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  rmullig2
+learn_profile: rmullig2
+email_username: rmullig2@optonline.net
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
